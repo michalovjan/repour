@@ -12,7 +12,7 @@ done
 mkdir tmprelease
 cd tmprelease
 
-git clone git@github.com:project-ncl/repour.git
+git clone git@github.com:michalovjan/repour.git
 
 echo "branch: $BRANCH , releae: $RELEASE"
 
@@ -37,7 +37,7 @@ git add . && git commit -m 'Continue with developement'
 
 cd ..
 
-git clone git@github.com:project-ncl/repour.wiki.git
+git clone git@github.com:michalovjan/repour.wiki.git
 
 #get changes for changelog
 
